@@ -1,17 +1,17 @@
-#calc {
+:host {
   display: block;
-  /* border: solid; */
   height: 200px;
+  // border: solid;
 }
 
-#res {
+#res2{
+    height: 48px;
     background-color: lightgray;
     border: solid;
-    height: 48px;
     font-size: 20px;
 }
 
-.btns {
+#btns2 > button {
     width: 25%;
     height: 36px;
     font-size: 18px;
@@ -19,17 +19,16 @@
     float: left;
 }
 
-#btn0, #btn1 {
+#btn0, #btn1{
     background-color: lightgreen;
     color: brown;
 }
 
-#btnClr, #btnEql {
+#btnClr, #btnEql{
     background-color: darkgreen;
     color: white;
 }
-
-#btnSum, #btnSub, #btnMul, #btnDiv {
+#btnSum, #btnSub, #btnMul, #btnDiv{
     background-color: black;
     color: red;
 }
